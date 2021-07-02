@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 100px;
+    background-image:url(https://images.unsplash.com/photo-1489486501123-5c1af10d0be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover;
+    padding-top: 75px;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.topbar{
+    height: 75px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #3d3d3d;
+    border-bottom: 1px black solid;
+}
+
+.grade{
+    width: 40%;
+    min-width: 375px;
+    position: fixed;
+    background-color: #3d3d3d;
+    top: 110px;
+    left: 5%;
+}
+
+.grade th{
+    padding: 7px 14px;
+    color: #f5f6fa;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.grade td{
+    color: #f5f6fa;
+    border: 1px solid black;
+    border-left: none;
+    overflow: hidden;
+}
+
+.grade input{
+    width: 95%;
+    min-width: 70px;
+    padding: 3px 0 3px 6px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.input-tbl{
+    width: 40%;
+    min-width: 375px;
+    background-color: #3d3d3d;
+    margin: 35px 5%;
+    float: right;
+    color: #f5f6fa;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.input-tbl th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.input-tbl th{
+    width: 50%;
+    font-size: 1rem;
+    padding: 7px 14px;
+}
+
+.input-tbl input{
+    width: 95%;
+    font-size: 1rem;
+    padding: 7px 14px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.input-tbl select{
+    width: 100%;
+    font-size: 1rem;
+    padding: 7px 14px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0;
+}
+
+.input-tbl button{
+    width: 100%;
+    font-size: 1rem;
+    padding: 14px 14px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #3d3d3d;
+    color: #f5f6fa;
+    border: none;
+    font-weight: bold;
+}
+
+.input-tbl button:hover{
+    background-color: #50545e;
+}
+
+.input-tbl h2{
+    padding: 7px 14px;
+}
+
+.display-tbl{
+    width: 40%;
+    min-width: 375px;
+    position: fixed;
+    background-color: #3d3d3d;
+    top: 385px;
+    left: 5%;
+    border-collapse: collapse;
+}
+
+.display-tbl th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: #f5f6fa;
+    text-align: center;
+    padding: 14px;
+    width: 25%;
+}
+
+.display-tbl td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: #f5f6fa;
+    text-align: center;
+    padding: 14px;
+    width: 25%;
+}
+
+#display-GPA{
+    background-color: #f5f6fa;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+#display-ECTS{
+    background-color: #f5f6fa;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+#c-count{
+    background-color: #f5f6fa;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+.good-luck{
+    background-color: #16a085;
+}
+
+@media only screen and (max-width: 938px) {
+    body{
+        padding-top: 0;
+    }
+
+    .topbar{
+        position: relative;
+    }
+
+    .input-tbl{
+        float: none;
+        margin: 2% auto;
+    }
+
+    .grade{
+        position: relative;
+        margin: 2% auto;
+        top: 0;
+        left: 0;
+    }
+
+    .display-tbl{
+        position: relative;
+        margin: 2% auto;
+        top: 0;
+        left: 0;
+    }
+}
